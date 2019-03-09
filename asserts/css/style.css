@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 /* To  disable the navbar button*/
 button, html [type="button"], [type="reset"], [type="submit"] {
@@ -99,12 +100,15 @@ nav ul li a:hover::after{
     color:#fff;
     opacity: 1;
 }
+p{
+  text-align: left;
+}
 /*...hr tag style...*/
 .style-one{
     width:25%;
-    margin: 5px auto;
-    height: 3px;
-    background:#34e5eb;
+      margin: 5px auto;
+
+    background:black;
 }
 .style-two{
     width:50%;
@@ -126,13 +130,24 @@ nav ul li a:hover::after{
 .header .header-content{
     margin-top: 10%;
 }
+#pt{
+  font-size: 15px;
+  font-weight: normal;
+
+}
+#qhead{
+  color:#1e90ff;
+}
+#cardText{
+  color: black;
+}
 /*About*/
 #About{
     overflow: auto;
     padding: 73px 20px;
     position: relative;
-    color: #fff;
-    background: rgb(4,22,46);
+    color: black;
+    font-size: 30px;
     text-align: center;
 }
 #About img{
@@ -143,12 +158,13 @@ nav ul li a:hover::after{
     transition: all .2s ease-in;
     transform: scale(1);
 }
-#About img:hover{
+#About img:hover {
     transform: scale(1.1);
 }
 /*Team*/
 #Team{
     overflow: auto;
+
     padding: 73px 20px;
     position: relative;
     text-align: center;
