@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* To  disable the navbar button*/
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: none !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+}
+.btn{
+    transition: all 300ns ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ededed;
+    color: #3c3c3c;
+    border: 1px solid #fff !important;
+}
+/*Navigation*/
+.navbar{
+    background: #222222 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+nav ul li a{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0.7;
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+nav ul li a:hover{
+    color:#fff;
+    text-decoration: none;
+    opacity: 1;
+    transform: scale(1.10);
+}
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background: #fff;
+    left: 4px;
+    top: 20px;
+    bottom: 20px;
+    margin:20px auto;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+nav ul li a:hover::after{
+    transform: scale(1);
+}
+.navbar-toggler{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    color:#fff !important;
+}
+
+/*Toggle bar*/
+.btn-open:after{
+	font-family: "FontAwesome";
+    content: "\f0c9";
+    font-size: 40px;
+	color:white;
+	transition: color .2s;
+}
+.btn-open:hover:after{
+	color:#fff;
+    opacity: 1;
+}
+.btn-close:after{
+	font-family: "FontAwesome";
+    content: "\f00d";
+    font-size: 40px;
+    color:white;
+    opacity: 0.7;
+	transition: color .2s;
+}
+.btn-close:hover:after{
+    color:#fff;
+    opacity: 1;
+}
+/*Home*/
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0 30px;
+}
+.header .header-content{
+    margin-top: 10%;
+}
