@@ -117,3 +117,14 @@ nav ul li a:hover::after{
 .header .header-content{
     margin-top: 10%;
 }
+.About{
+    height: auto;
+    width: 100%;
+    padding: 30px 0 30px;
+}
+
+.Gallery{
+    height: auto;
+    width: 100%;
+    padding: 30px 0 30px;
+}
