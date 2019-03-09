@@ -30,16 +30,7 @@ h1,h2,h4{
 p{
     font-size: 15px;
 }
-.btn{
-    transition: all 300ns ease-in-out;
-    font-weight: 500 !important;
-    text-transform: uppercase;
-}
-.btn:hover{
-    background-color: #ededed;
-    color: #3c3c3c;
-    border: 1px solid #fff !important;
-}
+
 /*Navigation*/
 .navbar{
     background: #222222 !important;
@@ -108,23 +99,74 @@ nav ul li a:hover::after{
     color:#fff;
     opacity: 1;
 }
+/*...hr tag style...*/
+.style-one{
+    width:25%;
+    margin: 5px auto;
+    height: 3px;
+    background:#34e5eb;
+}
+.style-two{
+    width:50%;
+    margin: 5px auto;
+    height: 1px;
+    background:#222222;
+}
 /*Home*/
 .header{
     height: 100vh;
     width: 100%;
     padding: 30px 0 30px;
+    text-align: center;
 }
 .header .header-content{
     margin-top: 10%;
 }
-.About{
-    height: auto;
-    width: 100%;
-    padding: 30px 0 30px;
+/*About*/
+#About{
+    overflow: auto;
+    padding: 73px 20px;
+    position: relative;
+    color: #fff;
+    background: rgb(4,22,46);
+    text-align: center;
+}
+#About img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    transform: scale(1);
+}
+#About img:hover{
+    transform: scale(1.1);
+}
+/*Team*/
+#Team{
+    overflow: auto;
+    padding: 73px 20px;
+    position: relative;
+    text-align: center;
+}
+.my_card{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.team b,
+.team h4{
+    margin:20px 0 20px;
+    color: #4c4c4c;
+}
+.team img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    transform: scale(1);
+}
+.team img:hover{
+    transform: scale(1.1);
 }
 
-.Gallery{
-    height: auto;
-    width: 100%;
-    padding: 30px 0 30px;
-}
