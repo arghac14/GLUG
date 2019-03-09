@@ -9,3 +9,5 @@ function myToggler(e){
         myEvent.className = 'btn-open';
     }
 }
+/*..............................Animation with wow.js and animation.css..............................*/
+new WOW().init();
