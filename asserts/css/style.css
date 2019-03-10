@@ -162,14 +162,14 @@ p{
     transform: scale(1.1);
 }
 /*Team*/
-#Team{
+.team{
     overflow: auto;
 
     padding: 73px 20px;
     position: relative;
     text-align: center;
 }
-.my_card{
+.my_card, .my_card_co{
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -179,15 +179,23 @@ p{
     color: #4c4c4c;
 }
 .team img{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     margin-top: 20px;
     cursor: pointer;
     transition: all .2s ease-in;
     transform: scale(1);
 }
+.my_card_co img{
+  height: 120px;
+  width: 120px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in;
+  transform: scale(1);
+}
 .team img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 /*  carousel */
 * {box-sizing:border-box}
