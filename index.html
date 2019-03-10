@@ -29,14 +29,16 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7);
                   <li class="nav-item ml-auto"><a href="#Home" class="nav-link">Home</a></li>
                   <li class="nav-item ml-auto"><a href="#About" class="nav-link">About Us</a></li>
                   <li class="nav-item ml-auto"><a href="#Gallery" class="nav-link">Gallery</a></li>
-                  <li class="nav-item ml-auto"><a href="#Team" class="nav-link">Our Team</a></li>
+                  <li class="nav-item ml-auto"><a href="#CoreTeam" class="nav-link">Core</a></li>
+                  <li class="nav-item ml-auto"><a href="#DeTeam" class="nav-link">Developer</a></li>
+                  <li class="nav-item ml-auto"><a href="#CoTeam" class="nav-link">Coordinator</a></li>
               </ul>
           </div>
       </div>
     </nav>
     <!--./Navigation bar....End-->
     <!--Header-->
-    <div class="header" id="Home" style="background: url(asserts/images/deskPic.png); background-repeat: no-repeat;
+    <div class="header scrolling" id="Home" style="background: url(asserts/images/deskPic.png); background-repeat: no-repeat;
   background-size: cover;">
         <div class="container">
 
@@ -62,7 +64,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7);
     <!--Header End-->
 
     <!--About Us start-->
-    <div class="About" id="About">
+    <div class="About scrolling" id="About">
       <div class="container">
         <h1 style="color:rgba(25, 181, 254, 1)" data-aos="flip-down" class="text-center"><i class="fa fa-info-circle" aria-hidden="true"></i> ABOUT US<h1><hr><br>
         <div class="row">
@@ -98,7 +100,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7);
     </div>
     <!-- About us end--><hr>
     <!-- Gallery start-->
-    <div id="Gallery" style="background: lack"><br><br><br>
+    <div id="Gallery" class="scrolling" style="background: lack"><br><br><br>
       <h1 style="color:rgba(25, 181, 254, 1)" data-aos="flip-down" class="text-center"><i class="fa fa-image" aria-hidden="true"></i> GALLERY<h1><hr><br>
       <!-- Slideshow container -->
   <div class="slideshow-container">
@@ -128,98 +130,178 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7);
   </div>
   <br>
 
-  <!-- The dots/circles -->
+  <!-- The dots/circles 
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
+  </div>-->
     </div>
     <!--- Gallery end-->
 
     <!-- Team start-->
-    <!--Team-->
-    <div style="color:rgba(25, 181, 254, 1)" id="Team" class="team">
+    <!--Core Team-->
+    <div style="color:rgba(25, 181, 254, 1)" id="CoreTeam" class="team scrolling">
       <div class="container" style="background:rgba(0,0,0,0.1)"><br>
-        <h2 data-aos="flip-down" class="text-center"><i class="fa fa-users" aria-hidden="true"></i> THE TEAM</h2><hr><br>
+        <h2 data-aos="flip-down" class="text-center"><i class="fa fa-users" aria-hidden="true"></i> THE CORE TEAM</h2><hr><br>
 
         <div class="row">
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/adrish.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Adrish Dey</h5>
+            <b  id="cardText">President</b><hr class="style-two">
           </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/abhik.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Abhik Banerjee</h5>
+            <b  id="cardText">Vice President</b><hr class="style-two">
           </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/soumit.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Soumit Sarkar</h5>
+            <b  id="cardText">Manager</b><hr class="style-two">
           </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/shahid.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Md Shahid</h5>
+            <b  id="cardText">Technical Lead</b><hr class="style-two">
           </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/anirban.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Anirban Banerjee</h5>
+            <b  id="cardText">Relationship Head</b><hr class="style-two">
           </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/abhirupdeb.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Abhirup Deb</h5>
+            <b  id="cardText">Promotion Lead</b><hr class="style-two">
           </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4 id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
-          </div>
-          <div class="my_card col-lg-2 col-md-3" >
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
-          </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
-          </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
-          </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
-          </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4  id="cardText">GNX</h4>
-            <b  id="cardText">CEO</b><hr class="style-two">
-          </div>
-          <!-- <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4>GNX</h4>
-            <b>CEO</b><hr class="style-two">
-          </div>
-          <div class="my_card col-lg-2 col-md-3">
-            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
-            <h4>GNX</h4>
-            <b>CEO</b><hr class="style-two">
-          </div> -->
         </div>
       </div>
     </div>
-    <!---End Team-->
-    <!--footer start -->
+    <!---End Core Team-->
+    <!--Developer Team-->
+    <div style="color:rgba(25, 181, 254, 1)" id="DeTeam" class="team scrolling">
+      <div class="container" style="background:rgba(0,0,0,0.1)"><br>
+        <h2 data-aos="flip-down" class="text-center"><i class="fa fa-users" aria-hidden="true"></i> THE DEVELOPER TEAM</h2><hr><br>
 
+        <div class="row">
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/arnab.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Arnab Chanda</h5>
+            <b  id="cardText">Lead Designer</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/aniket.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Aniket Anand</h5>
+            <b  id="cardText">Lead Web Developer</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Anurag Singh</h5>
+            <b  id="cardText">Lead Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6" >
+            <img src="asserts/images/team/saujanya.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Saujanya Roy</h5>
+            <b  id="cardText">Advisory</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/argha.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Arghadip Chakraborty</h5>
+            <b  id="cardText">Co-Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/sohel.jpeg" alt="team_photo" class="rounded-circle">
+            <h5 id="cardText">Sohel Raja Molla</h5>
+            <b  id="cardText">Co-Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/aniket_jha.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Aniket Jha</h5>
+            <b  id="cardText">Co-Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/sourav.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Sourav Dutta</h5>
+            <b  id="cardText">Co-Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card col-lg-4 col-md-4 col-6">
+            <img src="asserts/images/team/dhruba.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Dhruva Sengupta</h5>
+            <b  id="cardText">Hardware Expert</b><hr class="style-two">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---End Developer Team-->
+    <!--Coordinator Team-->
+    <div style="color:rgba(25, 181, 254, 1)" id="CoTeam" class="team scrolling">
+      <div class="container" style="background:rgba(0,0,0,0.1)"><br>
+        <h2 data-aos="flip-down" class="text-center"><i class="fa fa-users" aria-hidden="true"></i> THE COORDINATOR TEAM</h2><hr><br>
+
+        <div class="row">
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/team/sharad.jpeg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">Sharad Baid</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+          <div class="my_card_co col-lg-2 col-md-2 col-6">
+            <img src="asserts/images/linux_image.jpg" alt="team_photo" class="rounded-circle">
+            <h5  id="cardText">GNX</h5>
+            <b  id="cardText">Coordinator</b><hr class="style-two">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---End Coordinatop Team-->
+    <!--footer start -->
+<!--
     <div>
 
     <footer class="container-fluid" style=" font-size: 22px;font-family: 'Ubuntu', serif;
@@ -233,8 +315,22 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7);
     color:rgb(192,192,192);text-align: center;background: rgba(0,0,0,0.9);"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp&nbsp<a href=""><i class="fa fa-github" aria-hidden="true"></i></a></footer>
 
 
+    </div>-->
+    <!--Footer Start-->
+    <div class="footer" id="footer">
+      <div class="container">
+          <div class="text-center">
+            <h5>Designed By</h5>
+            <p class="text-center"><a href="https://arghac14.github.io">Arghadip </a> & <a href="https://sohelraja.github.io"> Sohel</a></p>
+          </div><hr>
+          <div class="text-center">
+            <h4>Get In Touch</h4>
+            <i class="social fa fa-facebook" aria-hidden="true"></i>
+            <i class="social fa fa-github" aria-hidden="true"></i><br>
+          </div>
+      </div>
     </div>
-
+    <footer class="container-fluid"><span>&copy 2019 All rights reserved : GNX NSEC</span></footer>
     <!-- footer end-->
 
 
@@ -242,6 +338,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7);
     <script src="asserts/js/libs/jquery-3.3.1.min.js"></script>
     <script src="asserts/js/libs/bootstrap.min.js"></script>
     <script src="asserts/js/libs/wow.min.js"></script>
+    <script src="asserts/js/libs/scrollwatch.js"></script>
     <script src="asserts/js/main.js"></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

@@ -69,6 +69,15 @@ nav ul li a::after{
 nav ul li a:hover::after{
     transform: scale(1);
 }
+nav ul li a.active{
+  color:#fff;
+  background: transparent;
+  text-decoration: none;
+  opacity: 1;
+}
+nav ul li a.active::after{
+  transform: scale(1);
+}
 .navbar-toggler{
     background-color: transparent !important;
 }
@@ -162,14 +171,14 @@ p{
     transform: scale(1.1);
 }
 /*Team*/
-#Team{
+.team{
     overflow: auto;
 
     padding: 73px 20px;
     position: relative;
     text-align: center;
 }
-.my_card{
+.my_card, .my_card_co{
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -179,15 +188,23 @@ p{
     color: #4c4c4c;
 }
 .team img{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     margin-top: 20px;
     cursor: pointer;
     transition: all .2s ease-in;
     transform: scale(1);
 }
+.my_card_co img{
+  height: 120px;
+  width: 120px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in;
+  transform: scale(1);
+}
 .team img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 /*  carousel */
 * {box-sizing:border-box}
@@ -285,3 +302,49 @@ p{
   to {opacity: 1}
 }
 /* carousel */
+/*footer*/
+.footer{
+  padding: 10px;
+  color:#fff;
+  text-align: center;
+  background-color:#222222;
+}
+.footer .social{
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.footer a{
+  display: inline-block;
+  text-decoration: none;
+  color:#3077b9;
+  padding: 0px;
+  margin: 0;
+  transition: 0.3s;
+  transform: scale(1);
+}
+.footer a:hover{
+  color:rgb(216, 211, 211);
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.footer p{
+  margin-bottom: 0 !important;
+}
+footer{
+  font-size: 20px;
+  font-family: 'Ubuntu', serif;
+  color:rgb(192,192,192);
+  text-align: center;
+  background: rgba(0,0,0,0.9);
+}
+footer span{
+  color: lightblue;
+  filter: brightness(100%);
+}
