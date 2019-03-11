@@ -142,8 +142,8 @@ p{
 }
 #pt{
   font-size: 15px;
-  font-weight: normal;
-
+  font-weight: 100;
+  opacity: .7;
 }
 #qhead{
   color:#1e90ff;
@@ -170,6 +170,13 @@ p{
 }
 #About img:hover {
     transform: scale(1.1);
+}
+/*Event*/
+.Event{
+  overflow: auto;
+  padding: 73px 20px;
+  position: relative;
+  text-align: center;
 }
 /*Team*/
 .team{
