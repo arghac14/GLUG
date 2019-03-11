@@ -172,7 +172,7 @@ p{
     transform: scale(1.1);
 }
 /*Event*/
-#Event{
+.Event{
   overflow: auto;
   padding: 73px 20px;
   position: relative;
