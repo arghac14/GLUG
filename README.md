@@ -1,2 +1,2 @@
 # GLUG
-Official site for GNX-Linux User Group of NSEC.
+Official site for Linux User Group of NSEC.
