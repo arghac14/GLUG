@@ -129,7 +129,8 @@ p{
 .header{
 
     display: cover;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: auto;
     width: 100%;
     padding: 30px 0 30px;
     text-align: center;
